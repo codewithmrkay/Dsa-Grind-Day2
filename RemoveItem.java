@@ -41,6 +41,7 @@ public class RemoveItem{
         System.out.println("\nafter remove :");
         array.remove(2);
         array.print();
+        System.out.println("");
         
     }
 }
