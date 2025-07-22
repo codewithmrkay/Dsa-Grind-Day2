@@ -1,7 +1,7 @@
-public class MyArray{
+public class RemoveItem{
     int[] arr;
     int index;
-    public MyArray(int data){
+    public RemoveItem(int data){
         arr=new int[data];
         index=0;
     }
@@ -31,7 +31,7 @@ public class MyArray{
         index--;
     }
     public static void main(String[] args) {
-        MyArray array = new MyArray(4);
+        RemoveItem array = new RemoveItem(4);
         array.add(20);
         array.add(30);
         array.add(36);
